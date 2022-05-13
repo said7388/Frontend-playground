@@ -5,7 +5,7 @@ $black: #000000;
 $gray: lighten($black, 40%);
 
 // Pen Settings
-$accent: #ed2553;
+$accent: #1d9bf0;
 $max-width: 460px;
 
 body {
@@ -202,7 +202,7 @@ body {
     text-align: center;
 
     a {
-      color: #d71d49;
+      color: $accent;
       text-decoration: none;
       transition: 0.3s ease;
     }

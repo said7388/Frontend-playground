@@ -30,7 +30,7 @@ export const validateInput = (name, value) => {
     let hasError = false,
         error = "";
     switch (name) {
-        case "name":
+        case "username":
             if (value.trim() === "") {
                 hasError = true;
                 error = "Name cannot be empty";
