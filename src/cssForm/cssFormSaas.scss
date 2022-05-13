@@ -47,10 +47,18 @@ body {
     text-transform: uppercase;
   }
 
+  .error-message {
+    color: red;
+    margin: 5px 60px;
+    padding-top: 0;
+    transition: 0.3s ease-in;
+    height: 16px;
+  }
+
   /* Inputs */
   .input-container {
     position: relative;
-    margin: 0 60px 50px;
+    margin: 10px 60px 0px;
 
     input {
       outline: none;
@@ -127,7 +135,7 @@ body {
 
   /* Button */
   .button-container {
-    margin: 0 60px;
+    margin: 20px 60px;
     text-align: center;
 
     button {

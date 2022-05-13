@@ -1,3 +1,11 @@
+body {
+  background: #e9e9e9;
+  color: #666;
+  font-family: "RobotoDraft", "Roboto", sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 /* Container */
 .container {
   position: relative;
@@ -13,6 +21,10 @@
   padding: 60px 0 40px 0;
   box-sizing: border-box;
   transition: 0.3s ease;
+  /* Title */
+  /* Inputs */
+  /* Button */
+  /* Footer */
 }
 .card .title {
   position: relative;
@@ -25,9 +37,15 @@
   font-weight: 600;
   text-transform: uppercase;
 }
+.card .error-message {
+  color: red;
+  margin: 5px 60px;
+  padding-top: 0;
+  transition: 0.3s ease-in;
+}
 .card .input-container {
   position: relative;
-  margin: 0 60px 50px;
+  margin: 10px 60px 0px;
 }
 .card .input-container input {
   outline: none;
@@ -58,9 +76,10 @@
   top: 0;
   left: 0;
   color: #757575;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 60px;
+  transition: ease-in 0.2s;
 }
 .card .input-container .bar {
   position: absolute;
@@ -86,7 +105,7 @@
   right: 50%;
 }
 .card .button-container {
-  margin: 0 60px;
+  margin: 20px 60px;
   text-align: center;
 }
 .card .button-container button {
@@ -98,7 +117,7 @@
   width: 240px;
   border: 2px solid #ed2553;
   padding: 10px 0;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 600;
   text-transform: uppercase;
   transition: 0.3s ease;
@@ -140,7 +159,7 @@
 }
 .card .footer {
   margin: 40px 0 0;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 300;
   text-align: center;
 }

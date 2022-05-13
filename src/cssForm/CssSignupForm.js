@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import './cssForm.css';
 
-const CssLoginForm = () => {
+const CssSignupForm = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
-    
 
     useEffect(() => {
         console.log({ email, password });
@@ -14,7 +13,7 @@ const CssLoginForm = () => {
     return (
         <div className="container">
             <div className="card">
-                <h1 className="title">Login</h1>
+                <h1 className="title">Ragistration</h1>
                 <form>
                     <div className="input-container">
                         <input type="text" label="username" required="required" />
@@ -41,7 +40,7 @@ const CssLoginForm = () => {
 
                     <div className="button-container">
                         <button>
-                            <span>Go</span>
+                            <span>SIGN UP</span>
                         </button>
                     </div>
                     <div className="footer">
@@ -53,4 +52,4 @@ const CssLoginForm = () => {
     );
 };
 
-export default CssLoginForm;
+export default CssSignupForm;
