@@ -12,7 +12,6 @@ const CssSignupForm = () => {
         confirm: ''
     });
 
-
     // Check input value validation
     const checkValidity = (e) => {
         const name = e.target.name;
